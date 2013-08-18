@@ -1,0 +1,19 @@
+.ebor-portfolio-widget img {
+	vertical-align: bottom; float: left; max-width: 50%; opacity: 0.3; -webkit-transition: all 150ms ease-in-out; -moz-transition: all 150ms ease-in-out; -ms-transition: all 150ms ease-in-out; -o-transition: all 150ms ease-in-out; transition: all 150ms ease-in-out; margin: 0 !important;
+}
+
+.ebor-portfolio-widget a:hover img {
+	opacity: 1;
+}
+
+@media only screen and (max-width: 767px) {
+	.ebor-portfolio-widget img {
+		width: 25%;
+	}
+}
+
+@media only screen and (max-width: 550px) {
+	.ebor-portfolio-widget img {
+		width: 50%;
+	}
+}
